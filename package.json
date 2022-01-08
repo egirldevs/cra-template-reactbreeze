@@ -1,26 +1,39 @@
 {
-  "name": "cra-template-reactinnit",
-  "version": "1.0.1",
+  "name": "cra-template-reactbreeze",
+  "version": "1.1.0",
+  "author": "Hydrabank",
+  "contributors": [
+    {
+      "name": "Daniel Hyders",
+      "email": "git@danny.works",
+      "url": "https://danny.works"
+    }
+  ],
   "keywords": [
     "react",
     "create-react-app",
     "template",
-    "reactinnit"
+    "reactinnit",
+    "tailwind",
+    "reactbreeze"
   ],
-  "description": "A Create React App template based on cra-template.",
+  "description": "A Tailwind template for Create React App, based on Reactinnit.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanningtonSystems/cra-reactinnit.git"
+    "url": "https://github.com/hydrabank/cra-template-reactbreeze.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/DanningtonSystems/cra-reactinnit/issues"
+    "url": "https://github.com/hydrabank/cra-template-reactbreeze/issues"
   },
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "dependencies": {
+
+  }
 }

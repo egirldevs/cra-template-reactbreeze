@@ -1,18 +1,11 @@
-.Core {
-  text-align: center;
+.Header {
+  @apply text-black text-center dark:text-white font-bold text-4xl font-BreezeHeader px-5;
 }
 
-.Core-Contain {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Text {
+  @apply text-black text-center dark:text-white text-2xl font-BreezeText px-12;
 }
 
-.Core-Link {
-  color: #61dafb;
+.Button {
+  @apply text-white font-bold text-2xl font-BreezeHeader rounded-xl border-8 border-blue-600 bg-blue-600;
 }
